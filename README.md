@@ -1,4 +1,4 @@
-# README for Celebrity Facial Recognition
+# Celebrity Facial Recognition
 
 ## faceScrub Folder
 The faceScrub folder is taken as-is from the FaceScrub dataset I received upon inquiry to the owners of the dataset. It is comprised of two text files (the dataset for actors and actresses with names, urls, and hashes), a LICENSE.txt file, and a README.txt file.

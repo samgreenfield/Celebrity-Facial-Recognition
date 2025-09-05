@@ -1,4 +1,4 @@
-# README for Final Project: Celebrity Facial Recognition
+# Celebrity Facial Recognition
 
 ## faceScrub Folder
 The faceScrub folder is taken as-is from the FaceScrub dataset I received upon inquiry to the owners of the dataset. It is comprised of two text files (the dataset for actors and actresses with names, urls, and hashes), a LICENSE.txt file, and a README.txt file.
@@ -23,7 +23,7 @@ The Jupyter Notebook containing the project is structured as follows. Detailed c
     - from tqdm, tqdm,
     - from sklearn, svm, metrics
 2. Download Images
-    - As submitted, only 10 images per class are downloaded when this cell is run (for efficiency if you would like to test). In my tests for the technical report, up to 100 images per class are used, depending on how many valid images are in the dataset.
+    - In my tests for the technical report, up to 100 images per class are used, depending on how many valid images are in the dataset.
     - Edit the number of actors and actresses classified by changing the k argument in lines 84, 85.
     - Edit the number of pictures downloaded per class by changing the pictures_per_name argument in lines 88, 89.
     - The program will download and verify images until there are pictures_per_name images in the folder. If images have previously been downloaded, they are included.
